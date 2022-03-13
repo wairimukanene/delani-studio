@@ -110,5 +110,7 @@ $("#work8").hover(function () {
       opacity: 1
   }, 550)
   $("#resta").fadeOut();
-  
+});
+$("form#form").submit(function (event) {
+  // event.preventDefault();
 }
