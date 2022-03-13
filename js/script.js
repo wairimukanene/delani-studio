@@ -26,4 +26,28 @@ $(document).ready(function () {
     },250);
     $("#carrey").fadeOut();
   });
+  $("#work2").hover(function () {
+    $(this).stop().animate({
+        opacity: .4
+    }, 250);
+    $("#pyra").slideToggle();
+
+}, function () {
+    $(this).stop().animate({
+        opacity: 1
+    }, 550)
+    $("pyra").fadeOut();
+});
+$("#work3").hover(function () {
+    $(this).stop().animate({
+        opacity: .4
+    }, 250);
+    $("#mighty").slideToggle();
+
+}, function () {
+    $(this).stop().animate({
+        opacity: 1
+    }, 550)
+    $("mighty").fadeOut();
+});
 }
