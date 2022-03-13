@@ -83,7 +83,6 @@ body {
   width: 100%;
   padding: 20px;
 }
-
 #message,
 #fname,
 #mail {
@@ -97,7 +96,6 @@ body {
 #mail {
   width: 380px;
 }
-
 .forms{
   border: whitesmoke;
   color: white;
