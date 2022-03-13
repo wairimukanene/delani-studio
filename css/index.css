@@ -66,3 +66,44 @@ body {
   border-radius: 18px;
   text-align: center;
 }
+.port{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.contact {
+  background-image: url("/img/background.jpg");
+  transform: translate(-50% -50%);
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+.con {
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#message,
+#fname,
+#mail {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0) 2px;
+}
+#message{
+  resize: none;
+}
+#fname,
+#mail {
+  width: 380px;
+}
+
+.forms{
+  border: whitesmoke;
+  color: white;
+}
+
+#submit {
+  width: 200px;
+  margin-left: 400px;
+}
