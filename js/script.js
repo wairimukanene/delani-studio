@@ -14,4 +14,16 @@ $(document).ready(function () {
   $("#Images") .animate({
     opacity: 1
   });
+  $("#work1").hover(function () {
+    $(this).stop().animate({
+        opacity: .4
+    }, 250);
+    $("#carrey").slideToggle();
+
+  }, function () {
+    $(this) .stop().animate({
+      opacity: .4
+    },250);
+    $("#carrey").fadeOut();
+  });
 }
