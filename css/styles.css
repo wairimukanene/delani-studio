@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya Sans");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Alegreya Sans';
+  font-size: 18px;
+}
