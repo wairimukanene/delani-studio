@@ -113,4 +113,16 @@ $("#work8").hover(function () {
 });
 $("form#form").submit(function (event) {
   // event.preventDefault();
-}
+  let name = $("input#fname").val();
+  let email = $("input#mail").val();
+  let message = $("textarea#message").val();
+  if ($("input#fname").val() && $("input#mail").val()) {
+      alert(name + ", we have received your message. Thank you for reaching us.");
+  } else {
+      alert("Please enter your valid name and  a valid email!");
+  }
+
+});
+});
+
+
