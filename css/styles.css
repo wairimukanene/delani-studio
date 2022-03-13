@@ -12,3 +12,12 @@ body {
   text-align: center;
   position: relative;
 }
+.middle {
+  position: absolute;
+  top: 10%;
+  left: 32%;
+  transform: translate(-50% -50%);
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
