@@ -8,3 +8,7 @@ body {
   font-family: 'Alegreya Sans';
   font-size: 18px;
 }
+.container {
+  text-align: center;
+  position: relative;
+}
