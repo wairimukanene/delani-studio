@@ -37,3 +37,32 @@ body {
   display: block;
   opacity: 0.3;
 }
+#paragraph,
+#paragraph1,
+#paragraph2 {
+  display: none;
+}
+
+#carrey,
+#pyra,
+#studio,
+#mighty,
+#have,
+#word,
+#mock,
+#resta {
+  position: relative;
+  display: none;
+  background-color: whitesmoke;
+  border: 2px solid white;
+  color: rgb(105, 221, 27);
+  font-size: 25px;
+  font-weight: bolder;
+  height: 70
+  px;
+  width: 230px;
+  padding-top: 5px;
+  background-color: grey;
+  border-radius: 18px;
+  text-align: center;
+}
