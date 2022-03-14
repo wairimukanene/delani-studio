@@ -14,8 +14,8 @@ body {
 }
 .middle {
   position: absolute;
-  top: 10%;
-  left: 32%;
+  top: 6%;
+  left: 20%;
   transform: translate(-50% -50%);
   color: white;
   font-size: xx-large;
@@ -23,6 +23,10 @@ body {
 }
 .bac {
   width: 100%;
+}
+.carousel-caption{
+  text-align: center;
+  font-size: medium;
 }
 #amazing {
   font-size: small;
@@ -69,9 +73,13 @@ body {
 .port{
   width: 90%;
   margin-left: 5%;
+  text-align: center;
+}
+.folio{
+  text-align: center;
 }
 
-.contact {
+.cont {
   background-image: url("/img/background.jpg");
   transform: translate(-50% -50%);
   color: black;
@@ -105,4 +113,8 @@ body {
   width: 200px;
   margin-left: 400px;
 };
+.icons{
+  text-align: center;
+
+}
 
