@@ -117,4 +117,11 @@ body {
   text-align: center;
 
 }
-
+.delani{
+  display :flex;
+  align-items: center;
+  margin-left: 180px;
+}
+.studio{
+  margin-left: 250px;
+}
